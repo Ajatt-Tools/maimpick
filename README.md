@@ -43,5 +43,5 @@ The available commands are:
 
 Maim Pick supports the following environment variables for configuration:
 
-- `MAIMPICK_ANKI_FIELD`: The name of the Anki field to store the screenshots (default: "Image").
-- `MAIM_SCREENSHOTS`: The directory to store the captured screenshots (default: "$HOME/Pictures/Screenshots").
+- `MAIMPICK_ANKI_FIELD`: The name of the Anki field to store the screenshots (default: `Image`).
+- `MAIM_SCREENSHOTS`: The directory to store the captured screenshots (default: `$HOME/Pictures/Screenshots`).
