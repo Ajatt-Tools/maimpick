@@ -148,7 +148,7 @@ convert_image() {
 }
 
 main() {
-	if_installed dmenu maim xdotool || exit 1
+	if_installed dmenu maim xdotool xclip || exit 1
 
 	local -r screenshot_dir=${MAIM_SCREENSHOTS:-$HOME/Pictures/Screenshots}
 	local -r file_path=$screenshot_dir/screenshot-$(date --utc '+%F-%H-%M-%S').png
