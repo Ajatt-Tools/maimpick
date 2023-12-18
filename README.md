@@ -39,6 +39,14 @@ The available commands are:
 - `full screen`: Capture a screenshot of the entire screen and save it to disk.
 - `full screen ⇒ clipboard`: Capture a screenshot of the entire screen and copy it to the clipboard.
 
+## Tips
+Create a keybinding for `maimpick area-Anki` in your WM to create a card of the current manga on the screen.
+<br></br>i3wm example:
+ ```
+ bindsym Mod4+p exec --no-startup-id maimpick area-Anki
+ ```
+
+
 ## Configuration
 
 Maim Pick supports the following environment variables for configuration:
